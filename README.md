@@ -2,6 +2,10 @@
 
 Yet another package for input components in Framer X, but this time they behave like traditional [React Controlled Components](https://reactjs.org/docs/forms.html#controlled-components).
 
+## Installation
+
+Install [this package](https://store.framer.com/package/jmargenberg-ovo/controlled-inputs) from the Framer X store.
+
 ## Usage
 
 _Important: You have to do this for these inputs to work!_
@@ -55,7 +59,7 @@ export const prefillText: Override = () => {
 | `stlying`   | `"standard" | "transparent" | "css"` | The styling of the input.                                       |
 | `className` | `string`                             | If `styling` is set to `css`, the css class name for the input. |
 
-_Note: To use CSS in Framer X a create a file named `styles.css` in your project's `code/` directory and write all your styles in there._
+_Note: To use CSS in Framer X create a file named `styles.css` in your project's `code/` directory and write all your styles in there._
 
 ### Other Attributes
 
