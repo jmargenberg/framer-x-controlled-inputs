@@ -2,8 +2,6 @@
 
 Yet another package for input components in Framer X, but this time they behave like traditional [React Controlled Components](https://reactjs.org/docs/forms.html#controlled-components).
 
-![Framer Store Page Artwork](images/artwork.png)
-
 ## Usage
 
 _Important: You have to do this for these inputs to work!_
@@ -50,6 +48,15 @@ export const prefillText: Override = () => {
 | `value`         | `string`                  | The current value of the input. |
 | `onValueChange` | `(value: string) => void` | Event for input value changing. |
 
+### Styling
+
+| Name        | Type                                 | Description                                                     |
+| ----------- | ------------------------------------ | --------------------------------------------------------------- |
+| `stlying`   | `"standard" | "transparent" | "css"` | The styling of the input.                                       |
+| `className` | `string`                             | If `styling` is set to `css`, the css class name for the input. |
+
+_Note: To use CSS in Framer X a create a file named `styles.css` in your project's `code/` directory and write all your styles in there._
+
 ### Other Attributes
 
 #### All Input Types
@@ -78,7 +85,3 @@ export const prefillText: Override = () => {
 ## Example Project
 
 You can download an example project showing how to use this component [here](https://github.com/ourveryown/framer-x-controlled-inputs/blob/master/ControlledInputs.framerx).
-
-## Github
-
-If you'd like to view the source code or contribute to this package you can do so on [Github](https://github.com/ourveryown/framer-x-controlled-inputs).
